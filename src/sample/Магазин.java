@@ -6,11 +6,7 @@ public class Магазин {
     private Покупатель аПокупатель;
     private Склад аСклад;
 
-    public void Выйти(){
-
-    }
-    public void Зайти(){
-
-    }
-    public Склад getСписокТоваровНаСкладе;
+    public void Выйти(){}
+    public void Зайти(){}
+    public Склад getСклад(){ return аСклад; }
 }

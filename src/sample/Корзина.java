@@ -8,10 +8,6 @@ public class Корзина<Товар> {
     public List<Товар> getСписокТоваров() {
         return СписокТоваров;
     }
-    public <Товар> void ЗаписатьТовар(){
-
-    }
-    public <Товар> void УдалитьТовар(){
-
-    }
+    public void ЗаписатьТовар(Товар t){}
+    public void УдалитьТовар(Товар t){}
 }
