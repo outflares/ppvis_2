@@ -2,7 +2,7 @@ package sample;
 
 public class Магазин {
     private Администратор аАдминистратор;
-    private Касса аКасса;
+    private Cashbox аCashbox;
     private Покупатель аПокупатель;
     private Склад аСклад;
 

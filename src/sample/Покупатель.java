@@ -2,14 +2,14 @@ package sample;
 
 public class Покупатель {
     Товар t = new Товар();
-    ПластиковаяКарточка аКарточка = new ПластиковаяКарточка();
+    PlasticCard аКарточка = new PlasticCard();
     Корзина аКорзина = new Корзина();
     Магазин аМагазин = new Магазин();
     private int Деньги;
 
 
-    public String ВернутьКарточку(ПластиковаяКарточка аКарточка){
-        return аКарточка.getПинкод();
+    public String ВернутьКарточку(PlasticCard аКарточка){
+        return аКарточка.getPIN();
     }
 
     private void ВзятьКорзину(){}
