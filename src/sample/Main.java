@@ -11,7 +11,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-        primaryStage.setTitle("Магазин");
+        primaryStage.setTitle("Shop");
         primaryStage.setScene(new Scene(root, 600, 400));
         primaryStage.show();
     }
@@ -21,19 +21,19 @@ public class Main extends Application {
         launch(args);
     }
 
-    public void ВыбратьИзСписка(){}
+    public void chooseFromList(){}
 
-    public void ВыбратьРежим(){}
+    public void chooseMode(){}
 
-    public void ВыбратьСпособОплаты(){}
+    public void chooseHowToPay(){}
 
-    public void ДобавитьВыбранное(){}
+    public void addSelected(){}
 
-    public void ОтобразитьОкноРаботыСТоваром(){}
+    public void showWindowOfWorkWithProduct(){}
 
-    public void ОтобразитьРежимАдминистратора(){}
+    public void showModeOfAdmin(){}
 
-    public void ОтобразитьРежимПокупателя(){}
+    public void showModeOfShopper(){}
 
-    public void УдалитьВыбранное(){}
+    public void deleteSelected(){}
 }

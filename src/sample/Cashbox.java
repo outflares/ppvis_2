@@ -1,8 +1,8 @@
 package sample;
 
 public class Cashbox {
-    Магазин aShop = new Магазин();
-    Seller cassier = new Seller();
+    private Shop aShop = new Shop();
+    private Seller cassier = new Seller();
 
     public void printReceipt(){}
     public void toPay(){}
